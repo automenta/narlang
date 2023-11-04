@@ -1,4 +1,4 @@
-# NARS-GPT
+
 
 <img src="https://user-images.githubusercontent.com/8284677/232368549-5337cf02-63fd-43ae-bf15-6ba9935a5419.png" width="200px">
 
@@ -25,10 +25,10 @@ This system with long-term learning that can be applied to new knowledge.
 - NARchy is industrial strength NARS implementation - the most mature implementation of NARS for large-scale experiments and entertainment
 - Sentences are stored in logical/structural form in the memory of NARS whereby introduction of new similar terms is avoided through the usage of embedding similarity of terms.
 - Accurate reasoning with Non-Axiomatic Logic truth calculations
-- The long-term memory of NARS-GPT does not have any context window-size limitation.
-- The memory of NARS-GPT can nevertheless be bounded if users desire so, whereby a maximum amount of items remembered by a usefulness ranking (how often an item was accessed and how recently).
+- The long-term memory does not have any context window-size limitation.
+- The memory can nevertheless be bounded if users desire so, whereby a maximum amount of items remembered by a usefulness ranking (how often an item was accessed and how recently).
 - Attention buffer is a view of up to k relevant items in NARS's memory decided based on recency and relevance to other items in the attention buffer, whereby recency is based on the time stamp of when the knowledge item was created, and relevance is decided by cosine similarity of the sentence embedding to the questions's embedding.
-- By NARS-GPT mentioned certainty values are NAL confidence values, whereby if frequency value is smaller than $0.5$ the belief appears in negated formulation in the prompt.
+- Mentioned certainty values are NAL confidence values, whereby if frequency value is smaller than $0.5$ the belief appears in negated formulation in the prompt.
 
 **Installation:**
 
